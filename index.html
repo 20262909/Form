@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sapanlay - HTML Form Activity</title>
+</head>
+    <body>
+
+    <font face="Helvetica" size="3"></font>
+
+    <h1>HTML Form</h1>
+
+    <form action="#" method="post">
+
+        <fieldset>
+
+            <!-- Personal Information: name and email -->
+
+            <legend>Personal Information</legend>
+
+            <p> 
+                <label for="nameofuser">Name:</label><br>
+                <input type="text" id="nameofuser" name="usersname">
+            </p>
+
+            <p>
+                <label for="emailofuser">Email:</label><br>
+                <input type="email" id="emailofuser" name="emailofuser">
+            </p>
+
+        </fieldset>
+
+        <!-- Gender: male - female - other -->
+
+        <fieldset> 
+            <legend>Gender</legend>
+            <p>
+
+                <input type="radio" id="gendermale" name="genderofuser" value="gendermale">
+                <label for="gendermale">Male</label><br>
+
+                <input type="radio" id="genderfemale" name="genderofuser" value="genderfemale">
+                <label for="genderfemale">Female</label><br>
+
+                <input type="radio" id="genderother" name="genderofuser" value="genderother">
+                <label for="genderother">Other</label><br>
+
+            </p>
+        </fieldset>
+
+        <!-- Hobbies: gaming - shopping - cooking -->
+
+        <fieldset>
+            <legend>Hobbies</legend>
+            <p>
+
+                <input type="checkbox" id="gaming" name="hobbies" value="gaming"> 
+                <label for="gaming">Gaming</label><br>
+
+                <input type="checkbox" id="shopping" name="hobbies" value="shopping"> 
+                <label for="shopping">Shopping</label><br>
+
+                <input type="checkbox" id="cooking" name="hobbies" value="cooking"> 
+                <label for="cooking">Cooking</label><br>
+
+            </p>
+        </fieldset>
+
+        <!-- Comments -->
+
+        <p>
+
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="40"></textarea>
+
+        </p>
+
+        <!-- Submit Button -->
+
+        <p>
+            <input type="submit" value="Submit">
+        </p>
+
+    </form>
+    
+    </body>
+</html>
